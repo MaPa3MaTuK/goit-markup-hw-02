@@ -1,0 +1,183 @@
+:root{
+  --main-color: #FFFFFF;
+  --second-color: #212121;
+  --third-color: #757575;
+  --buttom-color-1: #2196F3;
+  --buttom-color-2: #188CE8;
+  --buttom-color-3: #F5F4FA;
+}
+
+body {
+  font-family: "Roboto", "Raleway" ;
+  background-color: var(--main-color);
+  width: 270px;
+  color: var(--second-color);
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 1,7;
+letter-spacing: 0.03em;
+}
+
+.logo {
+  font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1,2;
+letter-spacing: 0.03em;
+}
+
+.header-link {
+  color: var(--second-color);
+}
+
+.header-link.current {
+  color: var(--buttom-color-1);
+}
+
+.logo {
+  color: var(--buttom-color-1);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1,1;
+  }
+
+.logo-black {
+  color: black;
+}
+
+.logo-white {
+  color: var(--main-color);
+}
+
+.header-link.current:hover,.header-link:hover,.email:hover,.filter-main:hover,.filter:hover {
+  cursor: pointer;
+}
+
+.header-link.current:focus,.header-link:focus,.email:focus,.filter-main:focus,.filter:focus {
+  cursor: pointer;
+}
+
+.title,.footer {
+  background: #2F303A;
+  color: var(--main-color);
+
+}
+
+.main-title{
+  font-weight: 900;
+font-size: 44px;
+line-height: 1.3;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.main-btn {
+  background: var(--buttom-color-1);
+color: var(--main-color);
+}
+
+.main-btn:hover {
+  background: var(-buttom-color-2);
+}
+
+.main-btn:focus {
+  background: var(-buttom-color-2);
+}
+
+.feature-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--second-color);
+}
+
+
+
+
+.title-metier,.title-team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--second-color);
+}
+
+.main-title-team {
+  background: var(--buttom-color-3);
+
+}
+
+.team-card {
+  background-color: var(--main-color);
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.teammate {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-color);
+}
+
+.proffesion {
+font-size: 16px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--third-color);
+}
+
+
+.filter-main,.filter {
+  background-color: var(--buttom-color-3);
+  }
+
+.filter-main:hover,.filter:hover {
+    background-color: var(--buttom-color-1);
+    }
+
+.filter-main:focus,.filter:focus {
+background-color: var(--buttom-color-1);
+}
+
+.email,.phone-number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--third-color);
+  text-decoration: none;
+}
+
+.projects {
+  background-color: var(--main-color);
+}
+
+.name {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--second-color);
+}
+
+.works {
+font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+color: var(--third-color);
+}
+
