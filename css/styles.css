@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Roboto", "Raleway" ;
+  font-family: "Roboto", sans-serif ;
   background-color: var(--main-color);
   width: 270px;
   color: var(--second-color);
@@ -19,7 +19,7 @@ letter-spacing: 0.03em;
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1,2;
@@ -50,12 +50,22 @@ letter-spacing: 0.03em;
   color: var(--main-color);
 }
 
-.header-link.current:hover,.header-link:hover,.email:hover,.filter-main:hover,.filter:hover {
-  cursor: pointer;
+.links {
+  list-style-type: none;
 }
 
-.header-link.current:focus,.header-link:focus,.email:focus,.filter-main:focus,.filter:focus {
+.header-link.current:hover,.header-link:hover,.email:hover, .phone-number:hover,.filter-main:hover,.filter:hover {
   cursor: pointer;
+  color: var(--buttom-color-1);
+}
+
+.header-link.current:focus,.header-link:focus,.email:focus, .phone-number:focus,.filter-main:focus,.filter:focus {
+  cursor: pointer;
+  color: var(--buttom-color-1);
+}
+
+.contacts {
+  list-style-type: none;
 }
 
 .title,.footer {
@@ -86,6 +96,10 @@ color: var(--main-color);
   background: var(-buttom-color-2);
 }
 
+.description {
+  list-style-type: none;
+}
+
 .feature-title{
 font-weight: 700;
 font-size: 14px;
@@ -96,7 +110,9 @@ text-transform: uppercase;
 color: var(--second-color);
 }
 
-
+.metier-images {
+  list-style-type: none;
+}
 
 
 .title-metier,.title-team {
@@ -112,6 +128,10 @@ color: var(--second-color);
 .main-title-team {
   background: var(--buttom-color-3);
 
+}
+
+.team-list {
+  list-style-type: none;
 }
 
 .team-card {
@@ -140,17 +160,32 @@ letter-spacing: 0.03em;
 color: var(--third-color);
 }
 
+.buttons {
+  list-style-type: none;
+}
 
-.filter-main,.filter {
+.filter-main {
+  background-color: var(--buttom-color-1);
+  color: var(--main-color);
+}
+
+.filter {
   background-color: var(--buttom-color-3);
+  color: var(--second-color);
   }
 
 .filter-main:hover,.filter:hover {
     background-color: var(--buttom-color-1);
+    color: var(--main-color);
     }
 
 .filter-main:focus,.filter:focus {
 background-color: var(--buttom-color-1);
+color: var(--main-color);
+}
+
+.service {
+  list-style-type: none;
 }
 
 .email,.phone-number {
