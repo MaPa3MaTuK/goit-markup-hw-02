@@ -28,6 +28,7 @@ letter-spacing: 0.03em;
 
 .header-link {
   color: var(--second-color);
+  text-decoration: none;
 }
 
 .header-link.current {
