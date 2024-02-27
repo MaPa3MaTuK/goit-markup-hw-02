@@ -36,7 +36,7 @@ letter-spacing: 0.03em;
 
 .logo {
   color: var(--buttom-color-1);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
   line-height: 1.1;
