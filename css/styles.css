@@ -90,11 +90,11 @@ color: var(--main-color);
 }
 
 .main-btn:hover {
-  background: var(-buttom-color-2);
+  background: var(--buttom-color-2);
 }
 
 .main-btn:focus {
-  background: var(-buttom-color-2);
+  background: var(--buttom-color-2);
 }
 
 .description {
@@ -216,4 +216,3 @@ line-height: 1.8;
 letter-spacing: 0.03em;
 color: var(--third-color);
 }
-
