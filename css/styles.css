@@ -85,16 +85,16 @@ text-transform: uppercase;
 }
 
 .main-btn {
-  background: var(--buttom-color-1);
+  background-color: var(--buttom-color-1);
 color: var(--main-color);
 }
 
 .main-btn:hover {
-  background: var(--buttom-color-2);
+  background-color: var(--buttom-color-2);
 }
 
 .main-btn:focus {
-  background: var(--buttom-color-2);
+  background-color: var(--buttom-color-2);
 }
 
 .description {
@@ -127,7 +127,7 @@ color: var(--second-color);
 }
 
 .main-title-team {
-  background: var(--buttom-color-3);
+  background-color: var(--buttom-color-3);
 
 }
 
