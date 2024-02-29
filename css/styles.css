@@ -1,14 +1,14 @@
-:root{
-  --main-color: #FFFFFF;
+:root {
+  --main-color: #ffffff;
   --second-color: #212121;
   --third-color: #757575;
-  --buttom-color-1: #2196F3;
-  --buttom-color-2: #188CE8;
-  --buttom-color-3: #F5F4FA;
+  --buttom-color-1: #2196f3;
+  --buttom-color-2: #188ce8;
+  --buttom-color-3: #f5f4fa;
 }
 
 body {
-  font-family: "Roboto", sans-serif ;
+  font-family: "Roboto", sans-serif;
   background-color: var(--main-color);
   color: var(--second-color);
   font-weight: 400;
@@ -52,19 +52,33 @@ body {
   list-style-type: none;
 }
 
-.header-link.current:hover,.header-link:hover,.email:hover, .phone-number:hover,.filter-main:hover,.filter:hover, .email-footer:hover, .phone-number-footer:hover {
+.header-link.current:hover,
+.header-link:hover,
+.email:hover,
+.phone-number:hover,
+.filter-main:hover,
+.filter:hover,
+.email-footer:hover,
+.phone-number-footer:hover {
   cursor: pointer;
   color: var(--buttom-color-1);
 }
 
-.header-link.current:focus,.header-link:focus,.email:focus, .phone-number:focus,.filter-main:focus,.filter:focus, .email-footer:focus, .phone-number-footer:focus {
+.header-link.current:focus,
+.header-link:focus,
+.email:focus,
+.phone-number:focus,
+.filter-main:focus,
+.filter:focus,
+.email-footer:focus,
+.phone-number-footer:focus {
   cursor: pointer;
   color: var(--buttom-color-1);
 }
 
 .contacts {
   list-style-type: none;
-  }
+}
 
 .email,
 .phone-number {
@@ -76,24 +90,24 @@ body {
   text-decoration: none;
 }
 
-.title,.footer {
-  background: #2F303A;
+.title,
+.footer {
+  background: #2f303a;
   color: var(--main-color);
-
 }
 
-.main-title{
-font-weight: 900;
-font-size: 44px;
-line-height: 1.3;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .main-btn {
   background-color: var(--buttom-color-1);
-color: var(--main-color);
+  color: var(--main-color);
 }
 
 .main-btn:hover {
@@ -108,14 +122,14 @@ color: var(--main-color);
   list-style-type: none;
 }
 
-.feature-title{
-font-weight: 700;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-color: var(--second-color);
+  color: var(--second-color);
 }
 
 .feature-text {
@@ -129,20 +143,19 @@ color: var(--second-color);
   list-style-type: none;
 }
 
+.title-metier,
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-.title-metier,.title-team {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: var(--second-color);
+  color: var(--second-color);
 }
 
 .main-title-team {
   background-color: var(--buttom-color-3);
-
 }
 
 .team-list {
@@ -152,30 +165,31 @@ color: var(--second-color);
 .team-card {
   background-color: var(--main-color);
   font-weight: 500;
-font-size: 16px;
-line-height: 1.1;
-text-align: center;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .teammate {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.1;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--second-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
 }
 
 .proffesion {
-font-size: 16px;
-line-height: 1.1;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--third-color);
+  font-size: 16px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
 }
 
-.email-footer,.phone-number-footer {
+.email-footer,
+.phone-number-footer {
   font-size: 14px;
   font-style: normal;
   line-height: 1.7;
@@ -204,40 +218,39 @@ color: var(--third-color);
 .filter {
   background-color: var(--buttom-color-3);
   color: var(--second-color);
-  }
+}
 
-.filter-main:hover,.filter:hover {
-    background-color: var(--buttom-color-1);
-    color: var(--main-color);
-    }
+.filter-main:hover,
+.filter:hover {
+  background-color: var(--buttom-color-1);
+  color: var(--main-color);
+}
 
-.filter-main:focus,.filter:focus {
-background-color: var(--buttom-color-1);
-color: var(--main-color);
+.filter-main:focus,
+.filter:focus {
+  background-color: var(--buttom-color-1);
+  color: var(--main-color);
 }
 
 .service {
   list-style-type: none;
 }
 
-
-
 .projects {
   background-color: var(--main-color);
 }
 
 .name {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--second-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-color);
 }
 
 .works {
-font-size: 16px;
-line-height: 1.8;
-letter-spacing: 0.03em;
-color: var(--third-color);
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
 }
-
