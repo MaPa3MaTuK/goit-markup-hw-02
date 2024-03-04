@@ -28,6 +28,7 @@ body {
 }
 
 .header-link {
+  display: block;
   color: var(--second-color);
   text-decoration: none;
   font-weight: 500;
@@ -49,7 +50,10 @@ body {
 }
 
 .links {
-  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .header-link.current:hover,
@@ -77,7 +81,10 @@ body {
 }
 
 .contacts {
-  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 0;
 }
 
 .email,
@@ -107,6 +114,7 @@ body {
 }
 
 .main-btn {
+  display: block;
   background-color: var(--buttom-color-1);
   color: var(--main-color);
 }
@@ -119,8 +127,16 @@ body {
   background-color: var(--buttom-color-2);
 }
 
-.description {
-  list-style-type: none;
+/**
+|====================
+| Description section
+|====================
+*/
+
+.section .description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .feature-title {
@@ -141,7 +157,9 @@ body {
 }
 
 .metier-images {
-  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .title-metier,
@@ -155,15 +173,32 @@ body {
   color: var(--second-color);
 }
 
+.metier-photo:last-child {
+  margin-right: 0;
+}
+
+/**
+|====================
+| Team section
+|====================
+*/
+
 .main-title-team {
   background-color: var(--buttom-color-3);
 }
 
 .team-list {
-  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .team-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
   background-color: var(--main-color);
   font-weight: 500;
   font-size: 16px;
@@ -208,13 +243,26 @@ body {
   color: var(--main-color);
 }
 
-.buttons {
-  list-style-type: none;
+/**
+|====================
+| Portfolio. html
+| Filter section
+|====================
+*/
+
+.section .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
-.filter-main {
-  background-color: var(--buttom-color-1);
-  color: var(--main-color);
+.section .filter-item {
+  margin-right: 8px;
+}
+
+.section .filter-item:last-child {
+  margin-right: 0;
 }
 
 .filter {
@@ -233,6 +281,62 @@ body {
   background-color: var(--buttom-color-1);
   color: var(--main-color);
 }
+
+.section .filter-main {
+  background-color: var(--buttom-color-1);
+  color: var(--main-color);
+}
+
+.filter-main:hover,
+.filter:hover,
+.filter-main:focus,
+.filter:focus {
+  background-color: var(--buttom-color-1);
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+/**
+|====================
+| contacts (footer)
+|====================
+*/
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address {
+  margin-top: 20px;
+  margin-bottom: 9px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.email-footer,
+.phone-number-footer {
+  display: block;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.email-footer {
+  margin-bottom: 9px;
+}
+
+/**
+|====================
+|Service section
+|====================
+*/
 
 .service {
   list-style-type: none;
